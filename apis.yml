@@ -1,22 +1,79 @@
 aid: diffusion
 name: Diffusion
-description: Diffusion is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Diffusion Software is a small independent software vendor that develops
+  audio-encoding and RDS (Radio Data System) tooling for FM radio broadcasters.
+  Its flagship product, Airomate, is a software-based RDS/RBDS encoder that
+  generates a high-quality RDS signal using a 192 kHz-capable soundcard, letting
+  stations broadcast professional-looking RDS information (station name,
+  RadioText, program service data) at low cost without dedicated hardware. The
+  company also ships complementary broadcast utilities: StereoCoder (an FM
+  stereo/MPX encoder), Little SineGen (a sine-wave generator that runs at any
+  sample rate the soundcard supports), and Chronos (a free scheduler that
+  sequences Programme Service name and RadioText messages for Airomate). The
+  products are Windows desktop applications distributed as low-cost licensed
+  downloads. Diffusion Software is a seed-stage Canaan Partners portfolio company
+  and does not publish a public API, SDK, or developer portal; this profile is
+  maintained as a network identity record.
+type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+position: Provider
+access: 3rd-Party
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/diffusion.png
 url: https://raw.githubusercontent.com/api-evangelist/diffusion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: non-api-provider
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Radio Data System
+- RDS Encoder
+- RBDS
+- FM Radio
+- Radio Broadcast
+- Broadcast Software
+- Audio Encoding
+- RadioText
+- Windows Software
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.diffusionsoftware.com
+- type: Product
+  url: https://www.diffusionsoftware.com/products.php
+- type: Downloads
+  url: https://www.diffusionsoftware.com/downloads.php
+- type: Support
+  url: https://www.diffusionsoftware.com/support.php
+- type: Pricing
+  url: https://www.diffusionsoftware.com/purchase.php
+- type: Contact
+  url: https://www.diffusionsoftware.com/contactus.php
+- type: DomainSecurity
+  url: security/diffusion-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
